@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Lifestyle Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .fade-in {
+            animation: fadeIn 1.2s ease-out forwards;
+        }
+    </style>
+</head>
+
+<body class="bg-gradient-to-tr from-blue-100 via-teal-100 to-green-100 min-h-screen flex items-center justify-center p-6">
+
+    <div class="bg-white/40 backdrop-blur-xl border border-white/50 shadow-2xl rounded-3xl p-10 max-w-2xl text-center fade-in">
+
+        <h1 class="text-5xl font-extrabold text-gray-700 mb-4 drop-shadow-sm">
+            Healthy Lifestyle Hub 
+        </h1>
+
+        <p class="text-lg text-gray-700 mb-6">
+            Discover simple habits that improve your mind, body, and daily life.  
+            A healthier you begins with small, mindful choices every day.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+
+            <div class="bg-white/70 backdrop-blur-lg p-6 rounded-xl shadow-md hover:scale-105 transition cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c"
+                     class="w-full h-24 object-cover rounded-lg mb-3 hover:opacity-90 transition" />
+                <h2 class="text-gray-800 font-bold text-xl mb-2">Nutrition</h2>
+                <p class="text-gray-700 text-sm">Learn easy, healthy eating habits.</p>
+            </div>
+
+            <div class="bg-white/70 backdrop-blur-lg p-6 rounded-xl shadow-md hover:scale-105 transition cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773"
+                     class="w-full h-24 object-cover rounded-lg mb-3 hover:opacity-90 transition" />
+                <h2 class="text-gray-800 font-bold text-xl mb-2">Wellness</h2>
+                <p class="text-gray-700 text-sm">Mindfulness, yoga & relaxation.</p>
+            </div>
+
+            <div class="bg-white/70 backdrop-blur-lg p-6 rounded-xl shadow-md hover:scale-105 transition cursor-pointer">
+                <img src="https://images.unsplash.com/photo-1554284126-aa88f22d8b74"
+                     class="w-full h-24 object-cover rounded-lg mb-3 hover:opacity-90 transition" />
+                <h2 class="text-gray-800 font-bold text-xl mb-2">Fitness</h2>
+                <p class="text-gray-700 text-sm">Move your body with easy routines.</p>
+            </div>
+
+        </div>
+
+        <button class="mt-10 px-8 py-3 bg-white text-teal-600 font-semibold rounded-full shadow-lg hover:bg-teal-100 transition transform hover:scale-105">
+            Begin Your Wellness Journey
+        </button>
+
+    </div>
+
+</body>
+</html>
